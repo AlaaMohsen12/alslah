@@ -269,5 +269,5 @@ function convertTo12Hour(time) {
 
 function sound() {
   let soun = document.querySelector(".azan");
-  soun.src = "../sound/038-1.mp3";
+  soun.src = "https://ia800908.us.archive.org/12/items/90---azan---90---azan--many----sound----mp3---alazan/019--1.mp3";
 }
