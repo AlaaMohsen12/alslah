@@ -1,0 +1,204 @@
+body {
+  font-family: "Cairo", serif;
+  background-image: url(../img/Subj-2015922247-2-1024x640.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+.logos {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #3b3b3bc2;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+/* f5d349a4 */
+.cityss {
+  display: none;
+}
+
+.cityss.citysOpened {
+  display: block;
+}
+
+.cityss li.clicked {
+  background-color: #fee685;
+}
+.cityssO li.clicked {
+  background-color: #fee685;
+}
+.citysst li.clicked {
+  background-color: #fee685;
+}
+.citysstr li.clicked {
+  background-color: #fee685;
+}
+
+.cityssO {
+  display: none;
+}
+.cityssO.openCiro {
+  display: block;
+}
+.citysstr {
+  display: none;
+}
+.citysstr.openQleob {
+  display: block;
+}
+.citysst {
+  display: none;
+}
+.citysst.openGiza {
+  display: block;
+}
+
+/* start mida q */
+@media (min-width: 320px) and (max-width: 480px) {
+  .titleName {
+    width: 100%;
+    font-size: 22px;
+    border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    -moz-border-radius: 0 0 8px 8px;
+    -ms-border-radius: 0 0 8px 8px;
+    -o-border-radius: 0 0 8px 8px;
+  }
+  .date-Name {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0 14px 0 14px;
+    -webkit-border-radius: 0 14px 0 14px;
+    -moz-border-radius: 0 14px 0 14px;
+    -ms-border-radius: 0 14px 0 14px;
+    -o-border-radius: 0 14px 0 14px;
+  }
+
+  .citys {
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+  }
+
+  .cont-title {
+    width: 100%;
+  }
+  .cont {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .logos {
+    height: 190vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .titleName {
+    width: 100%;
+    font-size: 25px;
+    border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    -moz-border-radius: 0 0 8px 8px;
+    -ms-border-radius: 0 0 8px 8px;
+    -o-border-radius: 0 0 8px 8px;
+  }
+  .date-Name {
+    width: 80%;
+    padding: 20px;
+    border-radius: 0 14px 0 14px;
+    -webkit-border-radius: 0 14px 0 14px;
+    -moz-border-radius: 0 14px 0 14px;
+    -ms-border-radius: 0 14px 0 14px;
+    -o-border-radius: 0 14px 0 14px;
+  }
+  .citys {
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+  }
+  .cont-title {
+    width: 100%;
+    font-size: larger;
+  }
+  .cont {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+  }
+  .logos {
+    height: 190vh;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .titleName {
+    width: 100%;
+    font-size: 40px;
+    border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    -moz-border-radius: 0 0 8px 8px;
+    -ms-border-radius: 0 0 8px 8px;
+    -o-border-radius: 0 0 8px 8px;
+  }
+  .date-Name {
+    width: 80%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 0 14px 0 14px;
+    -webkit-border-radius: 0 14px 0 14px;
+    -moz-border-radius: 0 14px 0 14px;
+    -ms-border-radius: 0 14px 0 14px;
+    -o-border-radius: 0 14px 0 14px;
+  }
+  .cont {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .cont-title {
+    font-size: 20px;
+  }
+  .logos {
+    height: 160vh;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .titleName {
+    width: 100%;
+    font-size: 40px;
+    border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    -moz-border-radius: 0 0 8px 8px;
+    -ms-border-radius: 0 0 8px 8px;
+    -o-border-radius: 0 0 8px 8px;
+  }
+  .date-Name {
+    width: 80%;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 0 14px 0 14px;
+    -webkit-border-radius: 0 14px 0 14px;
+    -moz-border-radius: 0 14px 0 14px;
+    -ms-border-radius: 0 14px 0 14px;
+    -o-border-radius: 0 14px 0 14px;
+  }
+  .cont-title {
+    font-size: 19px;
+  }
+  .cont {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .logos {
+    height: 160vh;
+  }
+}
+
+/* end mida q */
